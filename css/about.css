@@ -1,0 +1,28 @@
+.post-item {
+    margin-top: 10px;
+}
+.post-item__image-post>img {
+    width: 100%;
+    height: auto;
+}
+.post-item__content {
+    padding: 10px;
+
+    color: #7a7d82;
+}
+.content>p:nth-child(3) {
+    float: right;
+    margin-bottom: 20px;
+}
+.content>p>a {
+    color: #7a7d82;
+}
+
+.post-item__info {
+    display: flex;
+    clear: both;
+}
+.post-item__info>div {
+    padding: 0 20px;
+}
+/* end post item */
