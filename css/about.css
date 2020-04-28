@@ -26,3 +26,45 @@
     padding: 0 20px;
 }
 /* end post item */
+aside {
+    margin-left: 10px;
+    margin-top: 10px;
+    position: sticky;
+    top: 10px;
+}
+.search-post {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 20px;
+}
+.search-post>input {
+    width: 100%;
+    padding: 2px 50px 2px 8px;
+}
+.search-post>button {
+    position: absolute;
+    right: 30px;
+    top: 4px;
+
+    border: none;
+
+    background-color: white;
+}
+
+.list {
+    list-style: none;
+
+    margin-left: 10px;
+}
+.list>li {
+    border-bottom: 1px solid #d7d8da;
+
+    padding: 7px 10px;
+}
+.list>li>a {
+    text-decoration: none;
+    color: #7a7d82;
+}
+.list>li:hover {
+    background-color: #d7d8da;
+}
