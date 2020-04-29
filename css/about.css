@@ -68,3 +68,6 @@ aside {
 .list>li:hover {
     background-color: #d7d8da;
 }
+.archive {
+    margin-top: 2px;
+}
