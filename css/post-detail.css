@@ -17,7 +17,7 @@
   display: flex;
 }
 .post-detail__share > p {
-  font-size: 30px;
+  font-size: 20px;
 }
 .share-item {
   display: flex;
@@ -35,6 +35,7 @@
 .post-detail__author {
   display: flex;
   font-size: 14px;
+  align-items: center;
 }
 .thumbnail {
   width: 20%;
@@ -43,6 +44,15 @@
 .thumbnail > img {
   width: 100%;
   height: auto;
+}
+
+.leave-reply__title > p:nth-child(1) {
+  font-size: 25px;
+  font-weight: 500;
+}
+label::after {
+  content: "  *";
+  color: red;
 }
 /* ****************************************************************** */
 aside {
